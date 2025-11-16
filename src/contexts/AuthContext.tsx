@@ -22,7 +22,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     };
     checkSession();
 
-    const { data: authListener } = supabase.auth.onAuthStateChange((event, session) => {
+    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
       setIsAuthenticated(!!session);
     });
 
