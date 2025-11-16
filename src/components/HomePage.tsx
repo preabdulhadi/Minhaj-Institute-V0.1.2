@@ -1,3 +1,4 @@
+import { Navbar } from './Navbar';
 import { Hero } from './Hero';
 import { About } from './About';
 import { Courses } from './Courses';
@@ -8,6 +9,7 @@ import { Footer } from './Footer';
 export function HomePage() {
   return (
     <div className="min-h-screen">
+      <Navbar />
       <Hero />
       <About />
       <Courses />

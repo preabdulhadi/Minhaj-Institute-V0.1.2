@@ -1,0 +1,16 @@
+LOGO SETUP INSTRUCTIONS
+========================
+
+To use your logo on the website:
+
+1. Place your "Logo 1.png" file in this public/ folder
+2. Make sure the file is named exactly "Logo 1.png" (with a space)
+3. The logo will automatically appear in the navigation bar
+4. Recommended logo dimensions: 200-300px wide, transparent background works best
+
+The navbar is configured to:
+- Display your logo at 64px height (h-16)
+- Automatically scale width to maintain aspect ratio
+- Show a fallback text if the logo is not found
+
+Current logo path: /Logo 1.png
